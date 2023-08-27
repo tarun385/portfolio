@@ -1,86 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="icon.jpeg" type="image/x-icon">
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
-    <title>Tarun Portfolio</title>
-</head>
+    <title>Tarun_portfolio</title>
+    <link rel="icon" href="C:\Users\Tarun\project\tarun_portfolio\images\icon.jpeg">
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" class="stylesheet">
+</head> 
+
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="C:\Users\Tarun\project\portfolio\index.html" class="button-link">About</a></li>
-                <li><a href="Tarun_Resume.pdf" class="button-link">View CV</a></li>
-                <li><a href="https://www.linkedin.com/in/tarun-raghav385"><img src="linkedin.png" class="icon-image"></a></li>
-                <li><a href="https://github.com/tarun385"><img src="github.png" class="icon-image"></a></li>
-            </ul>
-        </nav>
+
+    <!-------------------------- Header Area -------------------------->
+    <header class="header-area">
+        <div class="container">
+            <div class="header">
+                   Tarun's Portfolio
+                <ul class="navbar">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                
+                <div class="menu_icon">
+                    <i class="fa fa-bars"></i>
+                </div>
+
+            </div>
+        </div> 
     </header>
-    <section id="about">
-        <img src="profile_photo.jpg" alt="Tarun." class="round-image">
-        <h1>About Me</h1>
-        <p>
-            Welcome to my portfolio website. I'm a dedicated and motivated software engineering student with a passion for solving complex problems through innovative coding solutions. Proficient in multiple programming languages and experienced in full stack web development.<br>
-My journey in the world of programming began during my college, where I am pursuing a degree in Computer Science Engineering from Gurugram University.
-        </p>
-    </section>
-    <section id="Details">
-        <h1>Education</h1>
-        <div class="Details">
-            <h2><img src="uni.png" class="icon-image"> Gurugram University</h2>
-            <p><b>2020-24</b><br>B.Tech CS (specialisation in AI)</p>
-            <h2><img src="sch.jpg" class="icon-image">Vivek Bharti sr. sec. School</h2>
-            <p><b>2019-20</b><br>Grade 12<br>Percentage: 93.8</p>
-            <p><b>2017-18</b><br>Grade 10<br>Percentage: 89.4</p>
+ 
+    <!-------------------------- Home Page -------------------------->
+    <div class="FirstElement" id="home">
+        <div class="profile-photo">
+            <img src="C:\Users\Tarun\project\tarun_portfolio\images\profile_photo.jpg" alt="profile picture">
         </div>
-        <h1>Certification </h1>
-        <div class="Details">
-            <h2><img src="cn.jpeg" class="icon-image"> Coding Ninjas</h2>
-            <p>Basics of c++<br><i>Issued Aug 2023</i><br><a href="https://files.codingninjas.in/certificate-427481-78e2dee9c4a3002d3f65a3bb8ea4cf94.pdf" class="button-link">Show credential</a></p>
-            <h2><img src="cn.jpeg" class="icon-image"> Coding Ninjas</h2>
-            <p>Fundamentals of Html<br><i>Issued Aug 2023</i><br><a href="html.pdf" class="button-link">Show credential</a></p>
-            <h2><img src="ist.png" class="icon-image"> Internshala Trainings</h2>
-            <p>Web development<br><i>Issued Mar 2023</i><br><a href="Web Development Training - Certificate of Completion.pdf" class="button-link">Show credential</a></p>
-            <h2><img src="ist.png" class="icon-image"> Internshala Trainings</h2>
-            <p>Internship and Job Preparation<br><i>Issued Aug 2023</i><br><a href="Internship & Job Preparation Training - Certificate of Completion (1).pdf" class="button-link">Show credential</a></p>
-        </div>
-    </section>
-    <hr>
-    <section id="contact">
-        <h1>Contact Me</h1>
-        <p>If you're interested in collaborating or have any questions, feel free to get in touch. I'm always excited to connect with fellow professionals and enthusiasts.</p>
-        
-        <div class="contact-info">
-            <div class="contact-method">
-                <span class="contact-icon">&#128231;</span> 
-                <p>Phone: 9873206943</p>
-            </div>
+        <div class="profile-text">
+            <h5>Hi I'm </h5><br>
+            <h1>Tarun</h1><br>
+            <p>Welcome to my portfolio website! I'm a passionate and aspiring software engineer with a strong desire to create innovative solutions and push the boundaries of technology.With a deep love for coding and problem-solving, I am constantly seeking opportunities to learn and grow in this ever-evolving field</p>
             
-            <div class="contact-method">
-                <span class="contact-icon">&#9993;</span> 
-                <p>Email: <a href="mailto:tarunraghav385@gmail.com">tarunraghav385@gmail.com</a></p>
+            <div class="btn-group">
+                <a href="C:\Users\Tarun\project\tarun_portfolio\doc\Tarun_Resume.pdf" class="btn   active">Download CV</a>
+                <a href="mailto:tarunraghav385@gmail.com" class="btn">Contact</a>
             </div>
-            
-            <div class="contact-method">
-                <span class="contact-icon">&#127760;</span> 
-                <p>Location: Gurugram, Haryana ,India</p>
+
+            <div class="social">
+                <a href="mailto:tarunraghav385@gmail.com"><i class="fa fa-envelope"></i></a>
+                <a href="https://github.com/tarun385"><i class="fa-brands fa-github"></i></a>
+                <a href="https://leetcode.com/tarun385/"><i class="fa fa-code"></i></a>
+                <a href="https://www.linkedin.com/in/tarun-raghav385"><i class="fa-brands fa-linkedin"></i></a>
             </div>
         </div>
-        
-        <div class="social-media">
-            <h1>Social media:</h1>
-            <a href="https://www.instagram.com/_tarun_raghav" target="_blank"><img src="instagram.png" alt="instagram"></a>
-            <a href="https://twitter.com/Tarun23869611" target="_blank"><img src="twitter.png" alt="Twitter"></a>
-            <a href="https://www.linkedin.com/in/tarun-raghav385" target="_blank"><img src="linkedin.png" alt="LinkedIn" class="icon-image">
-            <a href="https://github.com/tarun385" target="_blank"><img src="github.png" alt="github" class="icon-image"></a>
+    </div>
+
+        <!-------------------------- About Section -------------------------->
+    <section class="about-area" id="about">
+        <div class="container">
+            <div class="about">
+                
+                <div class="about-content">
+                    <h4>About Me</h4>
+                    <ul>
+                      <li>I am currently pursuing my final year Bachelor's Degree in Computer Science Engineering.I have built a solid foundation in software development, particularly in areas such as C++, SQL, Web Development and GitHub.</li>
+                      <li> My expertise in these areas allows me to approach projects with confidence and deliver high-quality results.I have a strong belief in the value of continuous learning and staying adaptable in the ever-evolving world of software engineering.</li>
+                      <li> I actively seek out opportunities to expand my knowledge and skills, embracing new technologies and approaches.Feel free to explore my work and get in touch if you have any questions or opportunities to collaborate. </li>
+                    </ul>
+                </div>
+                                  
+                <div class="about-skills">
+                    <ul>
+                        <li>Name: Tarun</li>
+                        <li>City: Gurugram</li>     
+                        <li>Country: India</li>
+                        <li>Email: tarunraghv385@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
+
+
+        <!-------------- Education & Internship -------------->
+    <section class="education-content" id="education">
+        <div class="container">
+            <div class="row">
+                <div class="education ">
+                    <h3 class="title">Education</h3>
+                    <div class="row">
+                        <div class="timeline-box">
+                            <div class="timeline">
+
+                                <!-- Timeline-item -->
+                                <div class="timeline-item">
+                                    <div class="circle-dot"></div>
+                                    <h3 class="timeline-title">
+                                        B.Tech CSE
+                                    </h3>
+                                    <h4 class="timeline-title"><img src="C:\Users\Tarun\project\tarun_portfolio\images\uni.png" class="icon-image"> Gurugram University</h4>
+                                    <h4 class="timeline-title">
+                                        <i class="fa fa-calendar"></i> 2020-2024
+                                    </h4>
+                                </div> 
+                                <!-- Timeline-item -->
+                                <div class="timeline-item">
+                                    <div class="circle-dot"></div>
+                                    <h3 class="timeline-title">Grade 12 - 93.8%</h3>
+                                    <h4 class="timeline-title"><img src="C:\Users\Tarun\project\tarun_portfolio\images\sch.jpg" class="icon-image"> vivek Bharti Senior Secondary school</h4>
+                                    <h4 class="timeline-title">
+                                        <i class="fa fa-calendar"></i> 2019-2020
+                                    </h4>
+                                </div>
+                                <!-- Timeline-item -->
+                                <div class="timeline-item">
+                                    <div class="circle-dot"></div>
+                                    <h3 class="timeline-title">
+                                        Grade 10 - 89.4%
+                                    </h3>
+                                    <h4 class="timeline-title"><img src="C:\Users\Tarun\project\tarun_portfolio\images\sch.jpg" class="icon-image"> Vivek Bharti Senior Secondary school</h4>
+                                    <h4 class="timeline-title">
+                                        <i class="fa fa-calendar"></i> 2017-2018
+                                    </h4>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="certification">
+                    <h3 class="title">Certification</h3>
+                    <div class="row">
+                        <div class="timeline-box">
+                            <div class="timeline">
+                                
+                                <!-- Timeline-item -->
+                                <div class="timeline-item">
+                                    <div class="circle-dot"></div>
+                                    <h3 class="timeline-title">
+                                        <img src="C:\Users\Tarun\project\tarun_portfolio\images\cn.jpeg" class="icon-image"> Coding Ninjas
+                                    </h3>
+                                    <h4 class="timeline-title">Basics in C++</h4>
+                                    <h4 class="timeline-title">
+                                        <i class="fa fa-calendar"></i> Aug-2023
+                                    </h4>
+                                    <div class="btn-group">
+                                        <a href="C:\Users\Tarun\project\tarun_portfolio\doc\c++.pdf" class="btn">Show credential</a>
+                                    </div>
+                                    <li class="timeline-text">Skills: C++, Object-Oriented Programming(OOP), Data Structures and Algorithms
+                                    </li>
+                                </div> 
+                                <!-- Timeline-item -->
+                                <div class="timeline-item">
+                                    <div class="circle-dot"></div>
+                                    <h3 class="timeline-title"><img src="C:\Users\Tarun\project\tarun_portfolio\images\cn.jpeg" class="icon-image"> Coding Ninjas</h3>
+                                    <h4 class="timeline-title">Fundamentals of Html</h4>
+                                    <h4 class="timeline-title">
+                                        <i class="fa fa-calendar"></i> Aug-2023
+                                    </h4>
+                                    <div class="btn-group">
+                                        <a href="C:\Users\Tarun\project\tarun_portfolio\doc\html.pdf" class="btn">Show credential</a>
+                                    </div>
+                                    <li class="timeline-text">Skills: Html</li>
+                                </div>
+                                <!--Timeline-item -->
+                                <div class="timeline-item">
+                                    <div class="circle-dot"></div>
+                                    <h3 class="timeline-title"><img src="C:\Users\Tarun\project\tarun_portfolio\images\ist.png" class="icon-image"> Internshala Trainings</h3>
+                                    <h4 class="timeline-title">Internship and Job Preparation</h4>
+                                    <h4 class="timeline-title">
+                                        <i class="fa fa-calendar"></i> Mar-2023
+                                    </h4>
+                                    <div class="btn-group">
+                                        <a href="C:\Users\Tarun\project\tarun_portfolio\doc\Internship & Job Preparation Training - Certificate of Completion (1).pdf" class="btn">Show credential</a>
+                                    </div>
+                                    <li class="timeline-text"></li>
+                                </div>
+                                <!--Timeline-item-->
+                                <div class="timeline-item">
+                                    <div class="circle-dot"></div>
+                                    <h3 class="timeline-title"><img src="C:\Users\Tarun\project\tarun_portfolio\images\ist.png" class="icon-image"> Internshala Trainings</h3>
+                                    <h4 class="timeline-title">Web Development</h4>
+                                    <h4 class="timeline-title">
+                                        <i class="fa fa-calendar"></i> Mar-2023
+                                    </h4>
+                                    <div class="btn-group">
+                                        <a href="C:\Users\Tarun\project\tarun_portfolio\doc\Web Development Training - Certificate of Completion.pdf" class="btn">Show credential</a>
+                                    </div>
+                                    <li class="timeline-text">Skills: Html, CSS, DBMS, PHP, Bootstrap, React.js, JavaScript</li>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        <!-------------------------- Projects -------------------------->
+        <section class="project-content" id="projects">
+            <div class="container">
+                <div class="project-title">
+                    <h4>My Projects</h4>
+                    <p>Discover my projects, where creativity meets innovation</p>
+                </div>
+                <div class="projects">
+                    <!-- 1st Project -->
+                    <div class="project">
+                        <i class="fa fa-file-text" aria-hidden="true"></i>
+                        <h4>Landing Page</h4>
+                        <p>A simple Project using HTML, CSS which encourages my creativity.Through this project, I have learned to create columns, divide section, arrange items, and add headers and footers.</p>
+                    </div>
+                    <!-- 2nd Project -->
+                    <div class="project">
+                        <i class="fa fa-coffee" aria-hidden="true"></i>
+                        <h4>Temperature Converter</h4>
+                        <p>A simple website using CSS, HTML, JavaScript to convert temperature from Celsius to Fahrenheit and etc.</p>
+                    </div>
+                    <!-- 3rd Project -->
+                    <div class="project">
+                        <i class="fa fa-desktop"></i>
+                        <h4>Portfolio Website</h4>
+                        <p>Created a portfolio website using HTML, CSS, and JavaScript, It serves as a platform to introduce
+                            myself, share my projects, and provide information about my education and internship.</p>
+                    </div>
     
-    <footer>
-        <p>&copy; 2023 Tarun. All rights reserved.</p>
-    </footer>
+                </div>
+            </div>
+        </section>
+
+        <!-------------------------- Contact Me -------------------------->
+
+    <section class="contact-content" id="contact">
+        <div class="container">
+            <div class="contact-title">
+                <h4>Contact Me</h4>
+                <p>Get In Touch</p>
+            </div>
+            <div class="contact">
+                <form name="submitToGoogleSheet">
+                    <input type="text" name="NAME" placeholder="Name" required>
+                    <input type="email" name="EMAIL" placeholder="Email" required>
+                    <input type="text" name="SUBJECT" placeholder="Subject">
+                    <textarea name="MESSAGE" placeholder="Message"></textarea>
+                    <input type="submit" value="Send Message" class="submit">
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </section>
+        
+    <!-------------------------- JS -------------------------->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+    
+    <!-------------------------- Footer section -------------------------->
+   <footer class="footer">
+    <small class="message">Thanks for visiting and happy coding!</small>
+    <small class="copyright">&copy; Copyright 2023. All rights reserved.</small>
+   </footer>
+
 </body>
 </html>
